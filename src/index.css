@@ -394,6 +394,10 @@ html, body {
 
 .focus-main-div{
   user-select: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
