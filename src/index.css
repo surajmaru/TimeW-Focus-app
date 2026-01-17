@@ -13,12 +13,12 @@ body {
 }
 
 .theme2{
-  background-image: url('./public/bg.jpg');
-  transition: all 1s ease;
+  background-image: url('/bg.jpg');
+  /* transition: all 1s ease; */
 }
 .theme1{
-  background-image: url('./public/bg2.jpg');
-  transition: all 1s ease;
+  background-image: url('/bg2.jpg');
+  /* transition: all 1s ease; */
 }
 
 
