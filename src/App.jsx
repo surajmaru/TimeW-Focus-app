@@ -1,5 +1,6 @@
 import { useState,useEffect } from 'react'
 import './App.css'
+import './mobile-view.css'
 import CircularTimer from './component/circularTimer.jsx';
 import { fireConfetti } from "./confetti.js";
 
