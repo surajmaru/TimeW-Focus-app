@@ -1,4 +1,11 @@
-@media (max-width: 640px) {
+@media (max-width: 320px) {
+
+}
+@media (max-width: 375px) {
+
+}
+
+  @media (max-width: 640px) {
   html, body {
   width: 100%;
   min-height: 100svh;
@@ -132,6 +139,39 @@
 .focus-main-div{
   user-select: none;
   margin-top: 200px;
+}
+
+.focus-div{
+  margin-top: 0px;
+  background-color: #01dd388c;
+  border-radius: 30%;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  border: 3px solid purple;
+  box-shadow: 0px 0px 100px rgba(0, 0, 255, 0.438);
+  justify-self: center;
+  font-size: 1rem;
+
+  transition: 
+  transform 1s ease,
+  font-size 1s ease,
+  padding 1s ease,
+  border-radius 1s ease,
+  background-color 1s ease,
+  top 1s ease;
+}
+.focus-div.move-top {
+  /* transform: translateY(-450px); */
+  transform: translateY(-50px);
+  font-size: 14px;
+  padding: 10px 10px;
+  border-radius: 20%;
+  background-color: #dd01018c;
 }
 
 
