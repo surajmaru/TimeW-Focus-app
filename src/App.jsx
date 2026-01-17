@@ -130,17 +130,17 @@ document.body.className = theme ? "theme1" : "theme2";
     <div className={`${!theme ? "time-div" : "time-div-2" }`}>  
       <div>
       <span className='hms'>{time.h}</span>
-      {/* <span className='hms1'>HOURS</span> */}
+      <span className='hms1'>HOURS</span>
       </div>
       <span className='hms2'>:</span>
       <div>
       <span className='hms'>{time.m}</span>
-      {/* <span className='hms1'>MINUTES</span> */}
+      <span className='hms1'>MINUTES</span>
       </div>
       <span className='hms2'>:</span>
       <div>
       <span className='hms'>{time.s}</span>
-      {/* <span className='hms1'>SECONDS</span> */}
+      <span className='hms1'>SECONDS</span>
       </div>
     </div>
 
