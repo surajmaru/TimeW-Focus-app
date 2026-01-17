@@ -79,7 +79,7 @@ const [theme, setTheme] = useState(false);
 function handleTheme() {
   setTheme(prev => !prev);
 }
-document.body.className = theme ? "theme1" : "theme2";
+document.body.className = theme ? "theme1" : "theme2";  
 
 
   return (
@@ -126,7 +126,7 @@ document.body.className = theme ? "theme1" : "theme2";
       
     </div>
 
-    <div className={`${!theme ? "time-div" : "time-div-2" }`}>
+    <div className={`${!theme ? "time-div" : "time-div-2" }`}>  
       <div>
       <span className='hms'>{time.h}</span>
       <span className='hms1'>HOURS</span>
