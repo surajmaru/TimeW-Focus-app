@@ -99,7 +99,7 @@ document.body.className = theme ? "theme1" : "theme2";
     <div className={`main-div ${focused ? "hide" : ""}`}>
   
   <div className='main-div-inner'> 
-    <a href='https://suraj-dev.vercel.app/' target='_blank'><img src='/self.png' className='logo-img' /></a>
+    <a href='https://surajmaru-dev.vercel.app/' target='_blank'><img src='/self.png' className='logo-img' /></a>
     <p className={`${!theme ? "p1" : "p1-1"}`}>Make this year count!</p>
     <button onClick={handleTheme} className={`${theme ? "theme-btn-2" : "theme-btn"}`}>{theme ? "LIGHT" : "DARK"}</button>
   </div>
